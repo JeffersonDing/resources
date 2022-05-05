@@ -2,6 +2,9 @@
 
 # first argument as the url to redirect to
 
+mkdir $2
+cd $2
+
 touch index.html
 
 cat > index.html << EOF
